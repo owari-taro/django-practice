@@ -1,0 +1,14 @@
+[project]
+name = "async"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=25.9.0",
+    "django-ninja>=1.4.5",
+    "django-ninja-extra>=0.30.2",
+    "gunicorn>=23.0.0",
+    "uvicorn>=0.38.0",
+    "uwsgi>=2.0.31",
+]
